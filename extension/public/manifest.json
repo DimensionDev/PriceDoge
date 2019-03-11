@@ -1,0 +1,48 @@
+{
+  "name": "Pricedog",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "app.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "/static/js/contentscript.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "scripts": [
+      "/static/js/backgroundscript.js"
+    ],
+    "persistent": false
+  },
+  "web_accessible_resources": [
+    "*.css",
+    "*.js"
+  ],
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "http://*/*",
+    "https://*/*",
+    "tabs",
+    "idle",
+    "identity",
+    "identity.email",
+    "bookmarks",
+    "storage",
+    "cookies",
+    "contextMenus"
+  ]
+}

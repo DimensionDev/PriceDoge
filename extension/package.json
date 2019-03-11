@@ -1,0 +1,54 @@
+{
+    "name": "price-doge-extension",
+    "version": "0.1.0",
+    "private": true,
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "@material-ui/core": "^3.9.2",
+        "@medv/finder": "^1.1.1",
+        "@types/jest": "^24.0.0",
+        "@types/node": "^11.9.0",
+        "@types/react": "^16.8.1",
+        "@types/react-dom": "^16.8.0",
+        "axios": "^0.18.0",
+        "bip39": "^2.5.0",
+        "copy-webpack-plugin": "^4.6.0",
+        "proxyquire": "^2.1.0",
+        "react": "^16.8.1",
+        "react-dom": "^16.8.1",
+        "react-intl": "^2.8.0",
+        "react-router-dom": "^4.3.1",
+        "react-scripts": "2.1.5",
+        "rewire": "^4.0.1",
+        "wallet.ts": "^0.2.8",
+        "write-file-webpack-plugin": "^4.5.0"
+    },
+    "scripts": {
+        "start": "node ./scripts/watch",
+        "build": "node ./scripts/build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "crx": "crx pack ./build -o ./build/pricedoge.crx -p ./key.pem",
+        "i18n-lint": "ts-node -O '{\\\"module\\\": \\\"commonjs\\\"}' ./src/i18n/linter.ts"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "devDependencies": {
+        "@types/bip39": "^2.4.1",
+        "@types/chrome": "0.0.79",
+        "@types/react-intl": "^2.3.16",
+        "@types/react-router-dom": "^4.3.1",
+        "cross-env": "^5.2.0",
+        "crx": "^4.0.1",
+        "tslint": "^5.12.1",
+        "tslint-react": "^3.6.0",
+        "typescript": "^3.3.3"
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "seedwords": {
+        "save": "Please keep your mnemoric words carefully; it is the only way to restore your account.",
+        "create": "Create mnemoric words",
+        "import": "Import mnemoric words",
+        "input": "Mnemoric words",
+        "incorrect": "Mnemoric words incorrect"
+    },
+    "save": "Save",
+    "next": "Next",
+    "password": "Password",
+    "password_confirm": "Confirm password",
+    "confirm": "Confirm",
+    "cart": {
+        "sync": {
+            "title": "Cart Synchronization",
+            "desc": "Some items are available on both of Tmall Supermarket and JD Supermarket. Click the button to sync items across carts.",
+            "action": "Sync",
+            "message": {
+                "success": "Synced"
+            }
+        },
+        "preview": {
+            "title": "Order Preview",
+            "desc": {
+                "loading": "Loading...",
+                "tojd": "For items available in both carts, the total price at JD is ¥{price}, lower than Tmall by ¥{saved}",
+                "totaobao": "For items available in both carts, the total price at Tmall is ¥{price}, lower than JD by ¥{saved}",
+                "same": "For items available in both carts, they are exactly the same price. You may shop on either of them."
+            },
+            "action": {
+                "loading": "...",
+                "tojd": "Order at JD",
+                "totaobao": "Order at Tmall",
+                "same": "Order at Tmall"
+            }
+        },
+        "assemble": {
+            "title": "Smart Combination",
+            "desc": "For items available in both carts, the lowest total cost is ¥{price}. Click the button to split desired items into 2 orders, one for each site, and the total cost will be lower than buying all at once.",
+            "action": "Use It"
+        }
+    },
+    "goods": {
+        "more": {
+            "title": "Similiar items",
+            "mismatch": "Not similiar?"
+        },
+        "current": {
+            "title": "Check info of this item",
+            "mismatch": "Info error?",
+            "select": {
+                "image": "Click to select image",
+                "title": "Click to select title",
+                "price": "Click to select price"
+            }
+        }
+    },
+    "website": "Website",
+    "feedback": "Feedback",
+    "setting": "Settings",
+    "error": {
+        "10001": "Please login JD",
+        "10002": "Please login Tmall",
+        "10500": "Server Internal Error"
+    },
+    "context_menu": {
+        "title": "This CSS/Element is price",
+        "success": "Success!"
+    },
+    "shop": {
+        "taobao": "Taobao",
+        "jd": "JD",
+        "amazon": "Amazon",
+        "newegg": "Newegg"
+    }
+}

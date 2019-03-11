@@ -1,0 +1,6 @@
+npm --prefix ./extension install ./extension
+npm run build --prefix ./extension
+npm run crx --prefix ./extension
+
+npm --prefix ./server install ./server
+npm run build --prefix ./server

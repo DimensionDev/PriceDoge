@@ -1,0 +1,14 @@
+# Javascript Node CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-javascript/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:7.10
+    steps:
+      - checkout
+      - run: bash ./build
+      - store_artifacts:
+          path: ./extension/build/pricedoge.crx

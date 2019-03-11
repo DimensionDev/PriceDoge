@@ -1,0 +1,38 @@
+version: '2.1'
+services:
+  server:
+    build: 
+      context: ./server
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+    links:
+      - puppeteer
+    depends_on:
+      - puppeteer      
+    ports:
+      - '8080:80'
+
+  puppeteer:
+    image: "browserless/chrome"
+    environment:
+      - MAX_CONCURRENT_SESSIONS=10
+      - MAX_QUEUE_LENGTH=10
+      - PREBOOT_CHROME=true
+      - KEEP_ALIVE=true
+    ports:
+      - '3000:3000'
+      
+
+  # https-portal:
+  #   image: steveltn/https-portal:1
+  #   ports:
+  #     - '80:80'
+  #     - '443:443'
+  #   links:
+  #     - server
+  #   restart: always
+  #   environment:
+  #     DOMAINS: 'oneechan.moe -> http://server:80'
+  #     STAGE: 'production'
+

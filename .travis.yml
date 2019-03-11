@@ -1,0 +1,19 @@
+matrix:
+  include:
+    - language: node_js
+      node_js:
+        - "lts/*"
+      script:
+        - bash ./build
+      before_deploy:
+        - export RELEASE_PKG_FILE=$(find . -name '*.crx')
+      deploy:
+        provider: releases
+        api_key:
+          secure: GITHUB_KEY
+        file_glob: true
+        file: ${RELEASE_PKG_FILE}
+        skip_cleanup: true
+        on:
+          branch: master
+          tags: true
