@@ -1,6 +1,9 @@
 # Pricedoge
 
+![Pricedoge][https://i.imgur.com/KGTM3gw.png]
+
 <div style="float: right;"><a href="./README-zh_CN.md">中文文档</a></div>
+
 
 Chrome extension for price comparison.
 
