@@ -10,6 +10,8 @@
 
 ## 扩展
 
+你可以在 https://github.com/DimensionFoundation/PriceDoge/raw/master/extension/pricedog.crx 下载本扩展
+
 本扩展使用了 React 和 Typescript。
 你可以运行 `npm run build` 来编译本扩展，然后在 Chrome 的扩展管理中`加载已解压的扩展`。
 我们不想使用 `npm run eject`，这样会从 react-scripts 里 eject 出一堆不需要的东西，所以我们使用 `rewire` 来修改 webpack 配置。
