@@ -14,6 +14,8 @@ When you visit a web page, the extension will check the website if it is a goods
 
 ## Extension
 
+You can download the packed crx file at: https://github.com/DimensionFoundation/PriceDoge/raw/master/extension/pricedog.crx
+
 We build the extension using `React` with `Typescript`.  
 You can run `npm run build` to build the extension and load unpacked extension from chrome.
 
