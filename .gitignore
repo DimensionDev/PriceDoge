@@ -303,3 +303,4 @@ import_data/
 mysql/
 
 redis/
+extension/key.pem
