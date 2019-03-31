@@ -2,7 +2,8 @@
 
 
 <img src="https://i.imgur.com/KGTM3gw.png"  width="100" height="100" />
-[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+<a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu"></a>
+
 
 
 <div style="float: right;"><a href="./README-zh_CN.md">中文文档</a></div>
