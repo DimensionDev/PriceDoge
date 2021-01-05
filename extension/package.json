@@ -10,7 +10,7 @@
         "@types/node": "^11.9.0",
         "@types/react": "^16.8.1",
         "@types/react-dom": "^16.8.0",
-        "axios": "^0.18.0",
+        "axios": "^0.21.1",
         "bip39": "^2.5.0",
         "copy-webpack-plugin": "^4.6.0",
         "proxyquire": "^2.1.0",
