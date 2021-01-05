@@ -13,7 +13,7 @@
   "author": "",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "iconv-lite": "^0.4.24",
     "jsdom": "^13.1.0",
     "koa": "^2.7.0",
