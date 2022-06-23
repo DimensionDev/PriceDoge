@@ -15,7 +15,7 @@
   "dependencies": {
     "axios": "^0.18.1",
     "iconv-lite": "^0.4.24",
-    "jsdom": "^13.1.0",
+    "jsdom": "^16.5.0",
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
